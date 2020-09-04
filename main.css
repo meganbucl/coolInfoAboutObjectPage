@@ -2,23 +2,95 @@ header{
   background-color: purple;
   color: pink;
   width: 100%;
-  text-align: center;
   position: absolute;
   top: 0px;
   left: 0px;
   height: 15vh;
 }
+header h1{
+  position: absolute;
+  left: 20px;
+  top: 15px;
+  text-shadow: -3px -3px gray;
+}
+header h2{
+  position: absolute;
+  right: 30px;
+  top: 25px;
+  padding: 3px;
+  border-bottom: solid 3px lavender;
+  border-bottom-right-radius: 30%;
+}
 section{
+  font-size: 40px;
   position: absolute;
   width: 100%;
   top: 15vh;
   background-color: lightblue;
   text-align: center;
-
+  left: 0px;
 }
 img{
   display: block;
   width: 40%;
   padding: 20px;
-  padding-left: 30%;
+  border-radius: 10%;
+  margin-left: 28%;
+  border: solid 30px teal;
+  box-shadow: 10px 10px olive;
+}
+.bob{
+  width: 200px;
+  height: 5px;
+  background-color: maroon;
+  position: absolute;
+}
+div h1{
+  font-size: 45px;
+  padding: 20px;
+  border: solid 8px green;
+  border-radius: 80%;
+  box-shadow: 10px 10px red, 0px 20px yellow, -10px -10px red, 0px -20px yellow;
+}
+.first h1{
+  position: absolute;
+  padding: 25px;
+  right: 5%;
+  top: 150vh;
+  transform: rotate(-20deg);
+}
+.second h1{
+  position: absolute;
+  left: 10%;
+  top: 220vh;
+  transform: rotate(20deg);
+}
+#pet1{
+  margin-left: 5%;
+}
+#pet2{
+  float: right;
+  margin-right: 5%;
+}
+#bob1{
+  left: 25%;
+  top: 65vh;
+  transform: rotate(-10deg);
+}
+#bob2{
+  width: 300px;
+  right: 25%;
+  top: 75vh;
+}
+h3{
+  font-size: 20px;
+  position: absolute;
+}
+#left{
+  left: 13%;
+  top: 63vh;
+}
+#right{
+  right: 18%;
+  top: 70vh;
 }
